@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/12/22||16:10:57" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="DroneMk1" uid="DroneMk1" version="111">
+<AssemblyFile name="DroneMk1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Drone Mk1-1" uid="Drone Mk1-1" entityUid="Drone Mk1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.020893914459918974 -0.013730104290262697 0.020608239924934851</Translation>
+</Transform>
+</Instance>
+<Instance name="Transmitter coil Mk1-1" uid="Transmitter coil Mk1-1" grounded="true" entityUid="Transmitter coil Mk1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.044822524787716582 -0.066792489072723144 0.018580670170994917</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Drone Mk1" uid="Drone Mk1*:*Default" version="268">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Drone Mk1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.034127940640354508</Mass>
+<CenterOfMass>0 0.0059524861060355708 0</CenterOfMass>
+<Inertia>6.1616186947709227e-05 0.00011750675735860967 6.1616186947709227e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Drone Mk1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Transmitter coil Mk1" uid="Transmitter coil Mk1*:*Default" version="129">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Transmitter coil Mk1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0040433459743833607</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>3.2611639555865878e-05 6.5220018355370706e-05 3.2611639555865878e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Transmitter coil Mk1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
