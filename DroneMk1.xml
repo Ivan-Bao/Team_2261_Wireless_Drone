@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-<Created by="" on="10/12/22||16:10:57" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<Created by="" on="11/10/22||19:17:34" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
 <ModelUnits mass="kilogram" length="inch"/>
 <DataUnits mass="kilogram" length="meter"/>
-<RootAssembly name="DroneMk1" uid="DroneMk1" version="111">
+<RootAssembly name="DroneMk1" uid="DroneMk1" version="113">
 <AssemblyFile name="DroneMk1.SLDASM" type="SolidWorks Assembly"/>
 <InstanceTree>
 <Instance name="Drone Mk1-1" uid="Drone Mk1-1" entityUid="Drone Mk1*:*Default">
@@ -31,7 +31,7 @@
 <MassProperties>
 <Mass>0.034127940640354508</Mass>
 <CenterOfMass>0 0.0059524861060355708 0</CenterOfMass>
-<Inertia>6.1616186947709227e-05 0.00011750675735860967 6.1616186947709227e-05 0 0 0</Inertia>
+<Inertia>6.1616186947709199e-05 0.00011750675735860965 6.1616186947709199e-05 0 0 0</Inertia>
 </MassProperties>
 <GeometryFile name="Drone Mk1_Default_sldprt.STEP" type="STEP"/>
 <VisualProperties>
