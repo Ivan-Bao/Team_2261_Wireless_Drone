@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/10/22||20:04:36" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.3.0"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Drone_assembly" uid="Drone_assembly" version="261">
+<AssemblyFile name="Drone_assembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="DC_MOTOR_(Brushless DC Inrunner Motor)-4" uid="DC_MOTOR_(Brushless DC Inrunner Motor)-4" entityUid="DC_MOTOR_(Brushless DC Inrunner Motor)*:*Default">
+<Transform>
+<Rotation>0 -0.99871842295954472 0.05061137857439274 1 0 -2.3090929091471663e-16 2.3474719749657849e-16 0.05061137857439274 0.99871842295954472</Rotation>
+<Translation>-0.088057412540886823 0.039936788931381029 0.074935034378219703</Translation>
+</Transform>
+</Instance>
+<Instance name="Propeller-4" uid="Propeller-4" entityUid="Propeller*:*Default">
+<Transform>
+<Rotation>0.35012414601780761 -0.93670330541495439 1.0482998278904992e-16 -2.9312920554709563e-16 -2.2148058446553768e-16 -1 0.93670330541495439 0.35012414601780761 -3.5212079624514554e-16</Rotation>
+<Translation>-0.088057416443006187 0.019511512448712631 0.07493502539741613</Translation>
+</Transform>
+</Instance>
+<Instance name="DC_MOTOR_(Brushless DC Inrunner Motor)-5" uid="DC_MOTOR_(Brushless DC Inrunner Motor)-5" entityUid="DC_MOTOR_(Brushless DC Inrunner Motor)*:*Default">
+<Transform>
+<Rotation>0 -0.97998261850971025 -0.19908306663011827 1 0 -2.439614229227311e-16 2.3474719749657884e-16 -0.19908306663011827 0.97998261850971025</Rotation>
+<Translation>-0.08805767419777305 0.039936788931380723 -0.047876561066480618</Translation>
+</Transform>
+</Instance>
+<Instance name="Propeller-1" uid="Propeller-1" entityUid="Propeller*:*Default">
+<Transform>
+<Rotation>0.46115211584457794 -0.88732109523670677 0 -1.760677694165265e-16 -1.7026635977999768e-16 -0.99999999999999989 0.88732109523670677 0.46115211584457794 -2.3474733806425633e-16</Rotation>
+<Translation>0.034748303272708468 0.019511512448712628 0.074922541559699657</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.63137254901960782" g="0.63921568627450975" b="0.56862745098039214" a="1"/>
+<Diffuse r="0.63137254901960782" g="0.63921568627450975" b="0.56862745098039214" a="1"/>
+<Specular r="0.5050980392156863" g="0.51137254901960782" b="0.45490196078431372" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Propeller-3" uid="Propeller-3" entityUid="Propeller*:*Default">
+<Transform>
+<Rotation>0.74791301032579571 -0.66379675276804906 1.0482998278854479e-16 -1.5533293312965706e-16 -3.3294152688557691e-16 -1.0000000000000002 0.66379675276804906 0.74791301032579571 -3.521207962448615e-16</Rotation>
+<Translation>-0.088057681850318439 0.019511512448712312 -0.04787656717548374</Translation>
+</Transform>
+</Instance>
+<Instance name="Propeller-5" uid="Propeller-5" entityUid="Propeller*:*Default">
+<Transform>
+<Rotation>-0.091380941796816065 -0.99581600884718025 1.0482998278856479e-16 -3.6022698850430462e-16 0 -1 0.99581600884718025 -0.091380941796816065 -3.5212079624475377e-16</Rotation>
+<Translation>0.034757521955777249 0.019511512448712635 -0.047881500379390485</Translation>
+</Transform>
+</Instance>
+<Instance name="Drone render-1" uid="Drone render-1" grounded="true" entityUid="Drone render*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.026663818960514396 -0.019014317154242795 0.013528199907227617</Translation>
+</Transform>
+</Instance>
+<Instance name="DC_MOTOR_(Brushless DC Inrunner Motor)-1" uid="DC_MOTOR_(Brushless DC Inrunner Motor)-1" entityUid="DC_MOTOR_(Brushless DC Inrunner Motor)*:*Default">
+<Transform>
+<Rotation>0 -0.32837141303427914 0.94454868328841091 1 -2.4971484560803341e-16 0 2.3814288346472456e-16 0.94454868328841091 0.32837141303427914</Rotation>
+<Translation>0.03474830823530195 0.039936788931381029 0.074922550000910235</Translation>
+</Transform>
+</Instance>
+<Instance name="DC_MOTOR_(Brushless DC Inrunner Motor)-2" uid="DC_MOTOR_(Brushless DC Inrunner Motor)-2" entityUid="DC_MOTOR_(Brushless DC Inrunner Motor)*:*Default">
+<Transform>
+<Rotation>0 -0.98808748007734282 0.15389324778692109 1 -1.0518013765169484e-16 -2.2119568248509651e-16 2.347471974965818e-16 0.15389324778692109 0.98808748007734282</Rotation>
+<Translation>0.034757521570796861 0.039936788931381043 -0.04788149059505812</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>0.063500000000000029 0.017780000000000004 0.063499999999999931</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-1</Uid>
+</InstancePath>
+<Position>-0.041171106085623833 1.3965607257325485e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>0.063500000000000598 0.017780000000000004 -0.063499999999999363</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-2</Uid>
+</InstancePath>
+<Position>-0.041171106085623826 1.3965607257332424e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>-0.063500000000000029 0.017780000000000004 -0.063499999999999931</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-5</Uid>
+</InstancePath>
+<Position>-0.041171106085623826 1.3965607257332424e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>-0.063500000000000154 0.017780000000000004 0.063499999999999807</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-4</Uid>
+</InstancePath>
+<Position>-0.041171106085623833 1.3965607257318546e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-1</Uid>
+</InstancePath>
+<Position>-0.021496106085623832 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Propeller-1</Uid>
+</InstancePath>
+<Position>9.7785746999701217e-09 -5.1073187692929345e-10 0.00040732960295541965</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-1</Uid>
+</InstancePath>
+<Position>-0.023996106085623831 1.3965607257325485e-05 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propeller-1</Uid>
+</InstancePath>
+<Position>9.7785746999701217e-09 -5.1073187692929345e-10 0.0035708296029554193</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-4</Uid>
+</InstancePath>
+<Position>-0.021496106085623828 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Propeller-4</Uid>
+</InstancePath>
+<Position>9.7785746860923339e-09 -5.107318734598465e-10 0.00040732960295541965</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-4</Uid>
+</InstancePath>
+<Position>-0.023996106085623827 1.3965607257318546e-05 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propeller-4</Uid>
+</InstancePath>
+<Position>9.7785746930312278e-09 -5.107318734598465e-10 0.0035708296029554193</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-5</Uid>
+</InstancePath>
+<Position>-0.021496106085623821 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Propeller-3</Uid>
+</InstancePath>
+<Position>9.7785746860923339e-09 -5.107318734598465e-10 0.00040732960295541965</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-5</Uid>
+</InstancePath>
+<Position>-0.02399610608562382 1.3965607257332424e-05 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propeller-3</Uid>
+</InstancePath>
+<Position>9.7785746860923339e-09 -5.107318734598465e-10 0.0035708296029554193</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Propeller-5</Uid>
+</InstancePath>
+<Position>9.7785746860923339e-09 -5.107318734598465e-10 0.00040732960295541965</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-2</Uid>
+</InstancePath>
+<Position>-0.021496106085623825 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-2</Uid>
+</InstancePath>
+<Position>-0.023996106085623824 1.3965607257332424e-05 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Propeller-5</Uid>
+</InstancePath>
+<Position>9.7785746860923339e-09 -5.107318734598465e-10 0.0035708296029554193</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>0.061407541289627374 0.017780000000000004 0.061407541289628831</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-1</Uid>
+</InstancePath>
+<Position>-0.041171106085623833 1.3965607257325485e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>-0.061407541289628192 0.017780000000000004 0.061407541289628026</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-4</Uid>
+</InstancePath>
+<Position>-0.041171106085623833 1.3965607257318546e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>-0.061407541289627804 0.017780000000000004 -0.061407541289628408</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-5</Uid>
+</InstancePath>
+<Position>-0.041171106085623826 1.3965607257332424e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Drone render-1</Uid>
+</InstancePath>
+<Position>0.061407541289628623 0.017780000000000004 -0.061407541289627596</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>DC_MOTOR_(Brushless DC Inrunner Motor)-2</Uid>
+</InstancePath>
+<Position>-0.041171106085623826 1.3965607257332424e-05 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="DC_MOTOR_(Brushless DC Inrunner Motor)" uid="DC_MOTOR_(Brushless DC Inrunner Motor)*:*Default" version="422">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DC_MOTOR_(Brushless DC Inrunner Motor).SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00062651950107821817</Mass>
+<CenterOfMass>-0.032976519865946102 1.8586751056794693e-05 0</CenterOfMass>
+<Inertia>3.7777252293787009e-09 1.6177226928201073e-08 1.6164093031170725e-08 1.4655135510181977e-11 0 2.5781075300530288e-11</Inertia>
+</MassProperties>
+<GeometryFile name="DC_MOTOR_(Brushless DC Inrunner Motor)_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Drone render" uid="Drone render*:*Default" version="412">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Drone render.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.045890819985789061</Mass>
+<CenterOfMass>9.0214633625385763e-12 0.004505091006701923 -2.4656409266049926e-10</CenterOfMass>
+<Inertia>6.8733850914477694e-05 0.00013615442931471205 6.8733850926376664e-05 8.2745828024326445e-14 -4.2663559198728414e-14 -2.4688745988992379e-15</Inertia>
+</MassProperties>
+<GeometryFile name="Drone render_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Propeller" uid="Propeller*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Propeller.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00011416523569638476</Mass>
+<CenterOfMass>1.7767631346916944e-08 1.4262803172093716e-08 0.0018591050496643627</CenterOfMass>
+<Inertia>3.0731406358409924e-10 1.5674064258241819e-08 1.5844113954755672e-08 -1.4019595944533922e-15 -1.0896277191731944e-15 -2.7255016754373245e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Propeller_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.63137254901960782" g="0.63921568627450975" b="0.56862745098039214" a="1"/>
+<Diffuse r="0.63137254901960782" g="0.63921568627450975" b="0.56862745098039214" a="1"/>
+<Specular r="0.5050980392156863" g="0.51137254901960782" b="0.45490196078431372" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
